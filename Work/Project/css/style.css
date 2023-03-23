@@ -1,0 +1,24 @@
+/* body {
+    background-color: khaki;
+} */
+
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+}
+.chapter {
+    color: blue;
+}
+#begin {
+    color: orange;
+    font-weight: bold;
+}
+
+.text {
+    font-weight: 900;
+    text-transform: uppercase;
+}
