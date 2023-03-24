@@ -1,0 +1,27 @@
+h1, h2 {
+    font-size: 20px;
+    color: rgb(204,0,0);
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 224);
+}
+
+.title {
+    font-size: 10pt;
+    color: rgb(0,0,0);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 10pt;
+    color: rgb(0,0,0);
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+}
