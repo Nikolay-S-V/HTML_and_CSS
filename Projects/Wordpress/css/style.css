@@ -119,18 +119,18 @@ h2.title {
     padding-bottom: 75px;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 30px;                           /* СТИЛИЗАЦИЯ ЗАГОЛОВКА h2 */
+    font-size: 30px;                           /* СТИЛИЗАЦИЯ ЗАГОЛОВКА h2 ВО ВТОРОЙ И ТРЕТЬЕЙ СЕКЦИИ*/
     text-align: center;
     text-transform: uppercase;
     color: #252525;
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider {
     margin: 18px auto;
-    width: 220px;                               /* ОРАНЖЕВАЯ ПОЛОСКА МЕЖДУ ЗАГОЛОВКАМИ   */                   
+    width: 220px;                               /* ОРАНЖЕВАЯ ПОЛОСКА МЕЖДУ ЗАГОЛОВКАМИ ВО ВТОРОЙ И ТРЕТЬЕЙ СЕКЦИИ  */                   
     height: 3px;
     background: #F9BF3B;
 }
@@ -210,3 +210,13 @@ h2.title {
 }
 
 /* ДОБАВЛЯЕМ ЧЕТВЕРТУЮ СЕКЦИЮ */
+
+.finish {
+    min-height: 445px;
+    background: url(../img/bg/fourth_bg.png) center center/cover no-repeat;   
+    padding: 86px 0 79px 0;                                                           /* СТИЛИЗАЦИЯ ВСЕЙ СЕКЦИИ */
+}
+
+.finish .finish_header {
+    color: #EFEFEF;
+}
