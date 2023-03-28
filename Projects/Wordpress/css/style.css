@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -165,3 +166,47 @@ h2.title {
     color: #4A4A4A;
     text-align: center;
 }
+
+/* ДОБАВЛЯЕМ ТРЕТЬЮ СЕКЦИЮ */
+
+.optimization {
+    min-height: 545px;
+    padding: 108px 0 75px 0;                                  /* СТИЛИЗАЦИЯ ВСЕЙ СЕКЦИИ */
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    font-family: 'Roboto';
+    font-weight: 900;                                         /* СТИЛИЗАЦИЯ ЗАГОЛОВКА h2 */
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text {
+    margin-top: 10px;
+    margin-left: 391px;
+    width: 750px;
+    font-family: 'Roboto';                                        /* СТИЛИЗАЦИЯ ТЕКСТА */
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text span {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 17px;                                               /* СТИЛИЗАЦИЯ ЖИРНОГО ТЕКСТА */
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;                                                   /* СТИЛИЗАЦИЯ КАРТИНКИ */
+    z-index: -1;
+}
+
+/* ДОБАВЛЯЕМ ЧЕТВЕРТУЮ СЕКЦИЮ */
