@@ -143,14 +143,13 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;                        /* ОБЩАЯ СТИЛИЗАЦИЯ БЛОКА С ТРЕМЯ КАРТИНКАМИ */
 }
 
-.waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;                           /* СТИЛИЗАЦИЯ БЛОКОВ С КАРТИНКАМИ И ТЕКСТОМ */
-    width: 342px;
+.waiting .waiting_wrapper .waiting_item {                          
+    width: 342px;                                  /* СТИЛИЗАЦИЯ БЛОКОВ С КАРТИНКАМИ И ТЕКСТОМ */
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
