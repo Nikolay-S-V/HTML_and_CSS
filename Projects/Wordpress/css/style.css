@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -22,7 +26,6 @@
 }
 
 .logo .logo_text {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     text-align: center;
@@ -40,7 +43,6 @@ h2.title {
 }
 
 .title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 41px;
     text-align: center;
@@ -49,7 +51,6 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 80px;
     text-align: center;
@@ -60,7 +61,6 @@ h2.title {
 
 .promo .promo_text {
     margin-top: 23px;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -69,7 +69,6 @@ h2.title {
 }
 
 .promo .promo_text span {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 21px;
     text-align: center;
@@ -86,7 +85,6 @@ h2.title {
     border: 3px solid rgba(0, 0, 0, 0.23);
     border-radius: 2%;                                                         /* СТИЛИЗАЦИЯ КНОПОК */
     background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
-    font-family: 'RobotoCondensed';
     font-size: 21px;
     text-align: center;
     text-transform: uppercase;
@@ -96,7 +94,6 @@ h2.title {
 }
 
 .more .more_text {
-    font-family: 'Roboto';
     font-weight: 100;
     font-size: 15px;
     text-align: center;
@@ -120,7 +117,6 @@ h2.title {
 }
 
 .waiting .waiting_header, .finish .finish_header {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;                           /* СТИЛИЗАЦИЯ ЗАГОЛОВКА h2 ВО ВТОРОЙ И ТРЕТЬЕЙ СЕКЦИИ*/
     text-align: center;
@@ -136,7 +132,6 @@ h2.title {
 }
 
 .waiting .waiting_subheader {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 23px;                          /* СТИЛИЗАЦИЯ ВТОРОГО ЗАГОЛОВКА ЧЕРЕЗ div */
     text-align: center;
@@ -159,7 +154,6 @@ h2.title {
 
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 26px;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;                                     /* СТИЛИЗАЦИЯ ТЕКСТА */
     line-height: 21px;
@@ -176,7 +170,6 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: 'Roboto';
     font-weight: 900;                                         /* СТИЛИЗАЦИЯ ЗАГОЛОВКА h2 */
     font-size: 30px;
     text-transform: uppercase;
@@ -186,8 +179,7 @@ h2.title {
 .optimization .optimization_text {
     margin-top: 10px;
     margin-left: 391px;
-    width: 750px;
-    font-family: 'Roboto';                                        /* СТИЛИЗАЦИЯ ТЕКСТА */
+    width: 750px;                                     /* СТИЛИЗАЦИЯ ТЕКСТА */
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
@@ -195,7 +187,6 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 17px;                                               /* СТИЛИЗАЦИЯ ЖИРНОГО ТЕКСТА */
     line-height: 27px;
@@ -244,7 +235,6 @@ h2.title {
 
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 25px;
-    font-family: 'Roboto';
     font-weight: 300;                                                  /* СТИЛИЗАЦИЯ ТЕКСТА */
     font-size: 17px;                                                    
     line-height: 20px;
@@ -267,7 +257,6 @@ h2.title {
 
 .present .present_text {
     margin-top: 45px;
-    font-family: 'Roboto';
     font-weight: 400;                                      /* СТИЛИЗАЦИЯ ТЕКСТА */
     font-size: 30px;
     line-height: 43px;
@@ -295,7 +284,6 @@ h2.title {
 
 .last .last_header {
     margin-top: 35px;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;                                            /* СТИЛИЗАЦИЯ ЗАГОЛОВКА */
     text-align: center;
@@ -305,7 +293,6 @@ h2.title {
 
 .last .last_subheader {
     margin-top: 30px;
-    font-family: 'Roboto';
     font-weight: 900;                                          /* СТИЛИЗАЦИЯ ДОПОЛНИТЕЛЬНОГО ЗАГОЛОВКА */
     font-size: 36px;
     text-align: center;
@@ -315,7 +302,6 @@ h2.title {
 
 .last .last_text {
     margin-top: 25px;
-    font-family: 'Roboto';
     font-weight: 400;                                        /* СТИЛИЗАЦИЯ ТЕКСТА */
     font-size: 23px;
     text-align: center;
@@ -345,7 +331,6 @@ footer {
 }
 
 .about .contacts .politic, .about .contacts .del, .about .contacts .sevice, .about .call {
-    font-family: 'Roboto';
     font-weight: 300;                                         /* ДОБАВИМ ЦЕВЕТОВ И ШРИФТ ТЕКСТУ */
     font-size: 15px;
     color: #888888
