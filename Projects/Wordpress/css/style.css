@@ -279,3 +279,45 @@ h2.title {
     margin-top: 51px;                                     /* ОТСТУП КНОПКИ СВЕРХУ */
 }
 
+/* ДОБАВЛЯЕМ ШЕСТУЮ СЕКЦИЮ */
+
+.last {
+    min-height: 515px;
+    padding: 86px 0 51px 0;
+}
+
+.last .last_img {
+    width: 342px;
+    height: 201px;
+    display: block;
+    margin: 0 auto;
+}
+
+.last .last_header {
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.last .last_subheader {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.last .last_text {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
