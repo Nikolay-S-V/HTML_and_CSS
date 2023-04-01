@@ -15,7 +15,7 @@ html {
 }
 
 .promo {
-    height: 800px;
+    min-height: 800px;
     padding: 38px 0 61px 0;
     background: url(../img/bg/first_bg.png) center center/cover no-repeat;
 }
