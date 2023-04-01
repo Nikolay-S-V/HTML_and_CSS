@@ -283,12 +283,12 @@ h2.title {
 
 .last {
     min-height: 515px;
-    padding: 86px 0 51px 0;
+    padding: 86px 0 51px 0;                                 /* СТИЛИЗАЦИЯ ВСЕЙ СЕКЦИИ */
 }
 
 .last .last_img {
     width: 342px;
-    height: 201px;
+    height: 201px;                                          /* ПАРАМЕТРЫ КАРТИНКИ*/
     display: block;
     margin: 0 auto;
 }
@@ -297,7 +297,7 @@ h2.title {
     margin-top: 35px;
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 30px;
+    font-size: 30px;                                            /* СТИЛИЗАЦИЯ ЗАГОЛОВКА */
     text-align: center;
     text-transform: uppercase;
     color: #252525;
@@ -306,7 +306,7 @@ h2.title {
 .last .last_subheader {
     margin-top: 30px;
     font-family: 'Roboto';
-    font-weight: 900;
+    font-weight: 900;                                          /* СТИЛИЗАЦИЯ ДОПОЛНИТЕЛЬНОГО ЗАГОЛОВКА */
     font-size: 36px;
     text-align: center;
     text-transform: uppercase;
@@ -316,8 +316,38 @@ h2.title {
 .last .last_text {
     margin-top: 25px;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 400;                                        /* СТИЛИЗАЦИЯ ТЕКСТА */
     font-size: 23px;
     text-align: center;
     color: #4A4A4A;
 }
+
+/* ДОБАВЛЕНИЕ footer */
+
+footer {
+    min-height: 169px;
+    background: #1A1A1A;                                /* СТИЛИЗАЦИЯ ФУТЕРА */
+    padding: 57px 0 69px 0;
+}
+
+.about .contacts {
+    display: flex;                                           /* ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
+    justify-content: center;
+}
+
+.about .contacts .del {
+    margin-left: 5px;                                         /* ОТСТУПЫ РАЗДЕЛИТЕЛЯ */
+    margin-right: 5px;
+}
+
+.about .call {
+    text-align: center;                                           /* ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
+}
+
+.about .contacts .politic, .about .contacts .del, .about .contacts .sevice, .about .call {
+    font-family: 'Roboto';
+    font-weight: 300;                                         /* ДОБАВИМ ЦЕВЕТОВ И ШРИФТ ТЕКСТУ */
+    font-size: 15px;
+    color: #888888
+}
+
