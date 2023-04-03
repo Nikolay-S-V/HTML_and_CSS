@@ -24,3 +24,55 @@ header .menu {
     border-right: 2px dotted black;
     padding-right: 28px;
 }
+
+.subheader {
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 19px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    font-weight: 100;
+    font-size: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.subheader .subheader_call {
+    display: block;
+    margin-top: 24px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    text-align: right;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
