@@ -175,8 +175,15 @@ header .menu {
     border-radius: 100%;
 }
 
-.second .second_img{
+.second .second_text {
+    width: 371px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.second .second_content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: baseline; */
 }
