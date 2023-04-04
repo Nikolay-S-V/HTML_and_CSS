@@ -134,3 +134,49 @@ header .menu {
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+/* ДОБАВЛЯЕМ ВТОРУЮ СЕКЦИЮ */
+
+.second {
+    min-height: 850px;
+    padding: 45px 0 65px 0;
+}
+
+.second .second_title {
+    margin: 0 auto;
+    width: 115px;
+    height: 25px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;                         /* СТИЛИЗАЦИЯ ЧЕРНОЙ ОБЛАСТИ С ТЕКСТОМ "ПРЕИМУЩЕСТВА" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.second .second_header {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.second .second_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.second .second_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
