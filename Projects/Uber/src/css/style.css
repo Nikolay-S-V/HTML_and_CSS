@@ -9,6 +9,10 @@ header {
 nav {
     height: 50px;
     background: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
 }
 
 header .menu {
@@ -34,6 +38,7 @@ header .menu {
     width: 100%;
     height: 87px;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
 }
 
 .subheader .subheader_logo {
@@ -86,7 +91,7 @@ header .menu {
 .promo {
     min-height: 800px;
     background: url(../img/bg/uber_bg.png) center center/cover no-repeat;
-    padding: 150px 0 185px 0;
+    padding: 200px 0 185px 0;
 }
 
 .promo .promo_header {
@@ -138,13 +143,13 @@ header .menu {
 /* ДОБАВЛЯЕМ ВТОРУЮ СЕКЦИЮ */
 
 .second {
-    height: 850px;
+    height: 850px;                             /* УКАЗЫВАЕМ ПАРАМЕТРЫ ВТОРОЙ СЕКЦИИ */
     padding: 45px 0 65px 0;
 }
 
 .second .second_row {
     display: flex;
-    align-items: center;
+    align-items: center;                       /* СТИЛИЗАЦИЯ  МОДУЛЯ СТРОКИ ВО ВТОРОЙ СЕКЦИИ */
     margin-top: 16px;
 }
 
@@ -165,7 +170,7 @@ header .menu {
 .second .second_header {
     margin-top: 35px;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 38px;                                    /* СТИЛИЗУЕМ ЗАГОЛОВОК */
     text-align: center;
     text-transform: uppercase;
     color: #222222;
@@ -174,7 +179,7 @@ header .menu {
 .second .second_round {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;                               /* СОЗДАЕМ КРУГЛЯШОК ПО РАЗМЕРАМ */
     width: 116px;
     height: 116px;
     background: #1EACC7;
@@ -184,20 +189,20 @@ header .menu {
 .second .second_text {
     width: 371px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 15px;                                   /* СТИЛИЗАЦИЯ ОБЩЕГО ТЕКСТА */
     line-height: 21px;
     color: #202020;
 }
 
 .second .second_blue {
     font-weight: 400;   
-    font-size: 17px;
+    font-size: 17px;                                  /* СТИЗИЗУЕМ SPAN ИЗ ОБЩЕГО ТЕКСТА */
     line-height: 21px;
     color: #1EACC7;
 }
 
 .second .second_content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;                    /* ОБЩАЯ СТИЛИЗАЦИЯ ОБЛАСТИ ГДЕ НАХОДИТЬСЯ ВЕСЬ КОНТЕНТ */
     align-items: center;
 }
