@@ -138,8 +138,14 @@ header .menu {
 /* ДОБАВЛЯЕМ ВТОРУЮ СЕКЦИЮ */
 
 .second {
-    min-height: 850px;
+    height: 850px;
     padding: 45px 0 65px 0;
+}
+
+.second .second_row {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
 }
 
 .second .second_title {
@@ -177,13 +183,21 @@ header .menu {
 
 .second .second_text {
     width: 371px;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.second .second_blue {
+    font-weight: 400;   
     font-size: 17px;
     line-height: 21px;
+    color: #1EACC7;
 }
 
 .second .second_content {
     display: flex;
     justify-content: space-around;
-    /* align-items: baseline; */
+    align-items: center;
 }
