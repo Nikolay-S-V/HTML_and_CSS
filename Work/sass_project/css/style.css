@@ -1,0 +1,45 @@
+/* line 10, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+h1 {
+  color: red;
+  font-size: 50px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 14, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+h2 {
+  color: red;
+  font-size: 50px;
+}
+
+/* line 17, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 19, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+.block h3 {
+  color: red;
+}
+
+/* line 21, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 23, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 25, D:/My_Frontend/HTML and CSS/Work/sass_project/sass/style.sass */
+.block .block_color {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
