@@ -1,6 +1,10 @@
-
+$main-color: #1eacc7
+$second-color: #ff5656
     
-
+=btn_hover
+    &:hover
+        background-image: none
+        background-color: $main-color
     
 * 
     font-family: "Roboto", sans-serif 
@@ -31,17 +35,17 @@ nav
     height: 87px 
     background-color: rgba(0, 0, 0, 0.6) 
     margin-top: 50px 
-    .subheader_logo 
+    &_logo 
         display: block 
         margin-top: 19px 
         max-width: 100% 
-    .subheader_official 
+    &_official 
         font-weight: 100 
         font-size: 13px 
         text-align: left 
         color: #FFFFFF 
         opacity: 0.6 
-    .subheader_call 
+    &_call 
         display: block 
         margin-top: 24px 
         text-align: right 
@@ -49,14 +53,14 @@ nav
         font-size: 12px 
         text-align: right 
         color: #FFFFFF 
-    .subheader_phone 
+    &_phone 
         text-align: right 
         font-weight: 400 
         font-size: 22px 
         line-height: 30px 
         color: #FFFFFF 
         text-transform: uppercase 
-    .subheader_btn 
+    &_btn 
         margin-top: 21px 
         width: 172px 
         height: 46px 
@@ -68,11 +72,12 @@ nav
         text-transform: uppercase 
         color: #FFFFFF 
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21) 
+        +btn_hover
 .promo 
     min-height: 800px 
     background: url(../img/bg/uber_bg.png) center center/cover no-repeat 
     padding: 200px 0 185px 0 
-    .promo_header 
+    &_header 
         font-weight: 900 
         font-size: 60px 
         line-height: 60px 
@@ -80,7 +85,7 @@ nav
         text-transform: uppercase 
         margin: 0 
         color: #FFFFFF 
-    .promo_subheader 
+    &_subheader 
         font-weight: 700 
         font-size: 36px 
         line-height: 36px 
@@ -89,14 +94,14 @@ nav
         margin: 0 
         margin-top: 5px 
         color: #FFFFFF 
-    .promo_text 
+    &_text 
         margin-top: 23px 
         font-weight: 400 
         font-size: 18px 
         line-height: 24px 
         text-align: center 
         color: #FFFFFF 
-    .promo_btn 
+    &_btn 
         display: block 
         margin: 115px auto 0 auto 
         width: 259px 
@@ -109,15 +114,16 @@ nav
         text-align: center 
         text-transform: uppercase 
         color: #FFFFFF 
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21) 
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+        +btn_hover 
 .second 
     height: 850px 
     padding: 45px 0 65px 0 
-    .second_row 
+    &_row 
         display: flex 
         align-items: center 
         margin-top: 16px  
-    .second_round 
+    &_round 
         display: flex 
         justify-content: center 
         align-items: center 
@@ -125,18 +131,18 @@ nav
         height: 116px 
         background: #1EACC7 
         border-radius: 100% 
-    .second_text 
+    &_text 
         width: 371px 
         font-weight: 300 
         font-size: 15px 
         line-height: 21px 
         color: #202020 
-    .second_blue 
+    &_blue 
         font-weight: 400 
         font-size: 17px 
         line-height: 21px 
         color: #1EACC7 
-    .second_content 
+    &_content 
         display: flex 
         justify-content: space-around 
         align-items: center 
