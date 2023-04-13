@@ -20,7 +20,7 @@ nav
     background: #212121 
     position: fixed 
     width: 100% 
-    z-index: 1 
+    z-index: 3 
 .menu 
     .menu_link 
         font-weight: 300 
@@ -380,6 +380,41 @@ nav
         color: #fff
         position: relative
         z-index: 2
+
+footer
+    min-height: 155px
+    padding: 15px 0 30px 0
+    .finish
+        &_main, &_cities, &_fordriver
+            margin-top: 30px
+            font-weight: 300
+            font-size: 15px
+            text-transform: uppercase
+            color: #070716
+        &_block
+            display: flex
+            justify-content: space-around
+        &_support, &_vacancies, &_developer, &_blog, &_about
+            margin-top: 10px
+            font-weight: 300
+            font-size: 11px
+            text-transform: uppercase
+            color: #999999
+        &_language
+            margin-top: 10px
+            font-weight: 400
+            font-size: 11px
+            text-transform: uppercase
+            color: #1FBAD6
+        &:before
+            content: ''
+            display: block
+            margin: 0 auto
+            width: 300px
+            height: 7px
+            background: #1FBAD6
+            
+            
 
 
     
