@@ -34,3 +34,31 @@ var card_9 = document.querySelector('.card_9');
 card_9.addEventListener( 'click', function() {
   card_9.classList.toggle('is-flipped');
 });
+var card_10 = document.querySelector('.card_10');
+card_10.addEventListener( 'click', function() {
+  card_10.classList.toggle('is-flipped');
+});
+var card_11 = document.querySelector('.card_11');
+card_11.addEventListener( 'click', function() {
+  card_11.classList.toggle('is-flipped');
+});
+var card_12 = document.querySelector('.card_12');
+card_12.addEventListener( 'click', function() {
+  card_12.classList.toggle('is-flipped');
+});
+var card_13 = document.querySelector('.card_13');
+card_13.addEventListener( 'click', function() {
+  card_13.classList.toggle('is-flipped');
+});
+var card_14 = document.querySelector('.card_14');
+card_14.addEventListener( 'click', function() {
+  card_14.classList.toggle('is-flipped');
+});
+var card_15 = document.querySelector('.card_15');
+card_15.addEventListener( 'click', function() {
+  card_15.classList.toggle('is-flipped');
+});
+var card_16 = document.querySelector('.card_16');
+card_16.addEventListener( 'click', function() {
+  card_16.classList.toggle('is-flipped');
+});
