@@ -51,4 +51,13 @@ $('.button_mini').each(function(i) {
     $('.overlay, #order').fadeIn('slow');
   })
 });
+$('#consultation-form').validate();
+$('#consultation form').validate({
+  rules: {
+    name: "required",
+    phone: "required",
+    email: "required"
+  }
+});
+$('#order form').validate();
 
