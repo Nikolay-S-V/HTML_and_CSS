@@ -130,3 +130,12 @@ $('form').submit(function(e) {
   return false;
 });
 
+// scroll up
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 1600) {
+    $('.pageup').fadeIn();
+  } else {
+    $('.pageup').fadeOut();
+  }
+});
