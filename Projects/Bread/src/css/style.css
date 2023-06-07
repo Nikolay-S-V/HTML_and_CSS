@@ -5,3 +5,15 @@ body {
 header {
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
