@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -34,6 +38,70 @@ a {
 }
 
 .about {
+    position: relative;
     height: 640px;
     background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    margin-bottom: 20px;
+}
+
+.about__order {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65, 0.8) 100%);
+    padding-top: 15px;
+}
+
+.about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.about__text {
+    font-size: 12px;
+    margin: 0;
+}
+
+.description__icon-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description__icon-box img {
+    margin-right: 76px;
+    width: 290px;
+    height: 290px;
+}
+
+.description__icon-box img:last-child {
+    margin-right: 0px;
+}
+
+.description__title {
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+}
+
+.description__title span {
+    color: #f15b40;
+}
+
+.description__text-box p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 1000px;
 }
