@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto';
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -94,6 +98,7 @@ a {
 }
 
 .description__title {
+    font-family: 'Philosopher';
     font-size: 96px;
     margin: 0px;
     text-align: center;
@@ -110,12 +115,34 @@ a {
     width: 1000px;
 }
 
+.map {
+    margin-bottom: 20px;
+}
+
 .map__title {
+    font-family: 'Philosopher';
     margin-bottom: 20px;
     text-align: center;
     font-size: 36px;
 }
+
 iframe {
     display: block;
     margin: 0 auto;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 60px;
+}
+
+h1 {
+    font-family: 'Philosopher';
 }
